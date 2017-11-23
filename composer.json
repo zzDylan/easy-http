@@ -1,5 +1,5 @@
 {
-    "name": "dylan/easy-request",
+    "name": "zzdylan/easy-request",
     "description": "easy request",
     "require": {
         "php": ">=5.5.0",
