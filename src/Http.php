@@ -3,7 +3,7 @@
 namespace ZzDylan\Tools;
 
 use GuzzleHttp\Client as HttpClient;
-use GuzzleHttp\Cookie\FileCookieJar;
+use GuzzleHttp\Cookie\CookieJar;
 
 class Http
 {
@@ -20,7 +20,8 @@ class Http
 
     public function __construct()
     {
-        $this->cookieJar = new FileCookieJar($this->cookiePath?$this->cookiePath:'/tmp', true);
+        //$this->cookieJar = new FileCookieJar($this->cookiePath?$this->cookiePath:'/tmp', true);
+        $this->cookieJar = new CookieJar();
         $this->client = new HttpClient(['cookies' => $this->cookieJar]);
     }
 
