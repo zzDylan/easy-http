@@ -1,6 +1,6 @@
 {
-    "name": "dylan/http",
-    "description": "easy http",
+    "name": "dylan/easy-request",
+    "description": "easy request",
     "require": {
         "php": ">=5.5.0",
         "guzzlehttp/guzzle": "^6.0"
