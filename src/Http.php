@@ -1,6 +1,6 @@
 <?php
 
-namespace Zzdylan\Tools;
+namespace ZzDylan\Tools;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Cookie\FileCookieJar;
