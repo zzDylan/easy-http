@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\Vbot\Support;
+namespace Zzdylan\Tools;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Cookie\FileCookieJar;
