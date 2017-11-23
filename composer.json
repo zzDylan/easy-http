@@ -12,5 +12,10 @@
             "email": "527844046@qq.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ZzDylan\\Tools\\": "src/"
+        }
+    }
 }
